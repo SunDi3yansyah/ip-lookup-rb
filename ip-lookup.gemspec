@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["sundi3yansyah@gmail.com"]
 
   spec.summary       = %q{Lookup IP Address with API}
-  spec.description   = %q{Lookup IP Address with API}
+  spec.description   = %q{Lookup IP Address with API to get a lot of information using ip-api.com}
   spec.homepage      = "https://github.com/SunDi3yansyah/ip-lookup-rb"
   spec.license       = "MIT"
 
