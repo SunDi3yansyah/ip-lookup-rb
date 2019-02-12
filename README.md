@@ -72,6 +72,27 @@ irb(main):001:0> Ip::Lookup.cli table: false
 => {"as"=>"AS17974 Telekomunikasi Indonesia (PT)", "city"=>"Yogyakarta", "country"=>"Indonesia", "countryCode"=>"ID", "isp"=>"PT. TELKOM INDONESIA", "lat"=>-7.8014, "lon"=>110.3647, "org"=>"", "query"=>"36.72.215.137", "region"=>"YO", "regionName"=>"Yogyakarta", "status"=>"success", "timezone"=>"Asia/Jakarta", "zip"=>""}
 ```
 
+```
+irb(main):001:0> ap Ip::Lookup.cli table: false
+{
+             "as" => "AS17974 Telekomunikasi Indonesia (PT)",
+           "city" => "Yogyakarta",
+        "country" => "Indonesia",
+    "countryCode" => "ID",
+            "isp" => "PT. TELKOM INDONESIA",
+            "lat" => -7.8014,
+            "lon" => 110.3647,
+            "org" => "",
+          "query" => "36.72.215.137",
+         "region" => "YO",
+     "regionName" => "Yogyakarta",
+         "status" => "success",
+       "timezone" => "Asia/Jakarta",
+            "zip" => ""
+}
+=> nil
+```
+
 For get Information with parameter
 ```
 irb(main):001:0> Ip::Lookup.get :as
