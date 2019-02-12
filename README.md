@@ -29,7 +29,60 @@ $ gem install ip-lookup
 
 ## Usage
 
-TODO: Write usage instructions here
+```
+irb(main):001:0> Ip::Lookup.server_whatismyipaddress
+=> "36.72.215.137"
+```
+
+```
+irb(main):001:0> Ip::Lookup.cli
++-------------+---------------------------------------+
+| String      | Value                                 |
++-------------+---------------------------------------+
+| Network     | AS17974 Telekomunikasi Indonesia (PT) |
+| City        | Yogyakarta                            |
+| Country     | Indonesia                             |
+| CountryCode | ID                                    |
+| Isp         | PT. TELKOM INDONESIA                  |
+| Lat         | -7.8014                               |
+| Lon         | 110.3647                              |
+| Org         |                                       |
+| IP Address  | 36.72.215.137                         |
+| Region      | YO                                    |
+| RegionName  | Yogyakarta                            |
+| Timezone    | Asia/Jakarta                          |
+| Zip         |                                       |
++-------------+---------------------------------------+
+=> nil
+
+```
+
+```
+irb(main):001:0> Ip::Lookup.cli table: false
+=> {"as"=>"AS17974 Telekomunikasi Indonesia (PT)", "city"=>"Yogyakarta", "country"=>"Indonesia", "countryCode"=>"ID", "isp"=>"PT. TELKOM INDONESIA", "lat"=>-7.8014, "lon"=>110.3647, "org"=>"", "query"=>"36.72.215.137", "region"=>"YO", "regionName"=>"Yogyakarta", "status"=>"success", "timezone"=>"Asia/Jakarta", "zip"=>""}
+```
+
+```
+irb(main):001:0> Ip::Lookup.get :as
+=> "AS17974 Telekomunikasi Indonesia (PT)"
+```
+
+List of parameter for `get`
+```
+as
+city
+country
+countryCode
+isp
+lat
+lon
+org
+query
+region
+regionName
+timezone
+zip
+```
 
 ## Development
 
