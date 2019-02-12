@@ -56,7 +56,7 @@ module Ip
               ]
             end
             data = Terminal::Table.new :headings => ["String", "Value"], :rows => array
-            puts "\n", data, "\n"
+            puts data
           else
             data = ''
             if api["status"] == "success"
