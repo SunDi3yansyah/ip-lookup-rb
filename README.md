@@ -29,11 +29,21 @@ $ gem install ip-lookup
 
 ## Usage
 
+Load `Ip::Lookup`
+```
+irb(main):001:0> require "ip/lookup"
+=> true
+```
+
+Then try:
+
+For get IP Address
 ```
 irb(main):001:0> Ip::Lookup.server_whatismyipaddress
 => "36.72.215.137"
 ```
 
+For get Information with table
 ```
 irb(main):001:0> Ip::Lookup.cli
 +-------------+---------------------------------------+
@@ -56,31 +66,37 @@ irb(main):001:0> Ip::Lookup.cli
 => nil
 ```
 
+For get Information without table (Object)
 ```
 irb(main):001:0> Ip::Lookup.cli table: false
 => {"as"=>"AS17974 Telekomunikasi Indonesia (PT)", "city"=>"Yogyakarta", "country"=>"Indonesia", "countryCode"=>"ID", "isp"=>"PT. TELKOM INDONESIA", "lat"=>-7.8014, "lon"=>110.3647, "org"=>"", "query"=>"36.72.215.137", "region"=>"YO", "regionName"=>"Yogyakarta", "status"=>"success", "timezone"=>"Asia/Jakarta", "zip"=>""}
 ```
 
+For get Information with parameter
 ```
 irb(main):001:0> Ip::Lookup.get :as
 => "AS17974 Telekomunikasi Indonesia (PT)"
 ```
 
-List of parameter for `get`
+List of parameter for `get`, can use `String` or `Symbol`
 ```
-as
-city
-country
-countryCode
-isp
-lat
-lon
-org
-query
-region
-regionName
-timezone
-zip
++-------------+--------------+
+| String      | Symbol       |
++-------------+--------------+
+| as          | :as          |
+| city        | :city        |
+| country     | :country     |
+| countryCode | :countryCode |
+| isp         | :isp         |
+| lat         | :lat         |
+| lon         | :lon         |
+| org         | :org         |
+| query       | :query       |
+| region      | :region      |
+| regionName  | :regionName  |
+| timezone    | :timezone    |
+| zip         | :zip         |
++-------------+--------------+
 ```
 
 ## Development
