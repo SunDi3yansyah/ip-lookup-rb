@@ -27,6 +27,7 @@ module Ip
 
       def cli ip: server_whatismyipaddress, table: true
         require "terminal-table"
+        require "awesome_print"
 
         if ip.nil?
           raise "Params is require!"
