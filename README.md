@@ -3,6 +3,7 @@
 [![Build Status](https://travis-ci.com/SunDi3yansyah/ip-lookup-rb.svg)](https://travis-ci.com/SunDi3yansyah/ip-lookup-rb)
 [![License](https://img.shields.io/github/license/SunDi3yansyah/ip-lookup-rb.svg)](LICENSE)
 [![Gem Version](https://badge.fury.io/rb/ip-lookup.svg)](https://badge.fury.io/rb/ip-lookup)
+[![Download total](https://img.shields.io/gem/dt/ip-lookup.svg?style=flat)](https://badge.fury.io/rb/ip-lookup)
 [![GitHub last commit](https://img.shields.io/github/last-commit/SunDi3yansyah/ip-lookup-rb.svg)](https://github.com/SunDi3yansyah/ip-lookup-rb/commits/master)
 [![GitHub issues](https://img.shields.io/github/issues/SunDi3yansyah/ip-lookup-rb.svg)](https://github.com/SunDi3yansyah/ip-lookup-rb/issues)
 
