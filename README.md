@@ -1,4 +1,4 @@
-# Ip::Lookup
+# Ip Lookup for Ruby
 
 [![Build Status](https://travis-ci.com/SunDi3yansyah/ip-lookup-rb.svg)](https://travis-ci.com/SunDi3yansyah/ip-lookup-rb)
 [![License](https://img.shields.io/github/license/SunDi3yansyah/ip-lookup-rb.svg)](LICENSE)
