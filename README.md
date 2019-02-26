@@ -1,6 +1,6 @@
 # Ip Lookup for Ruby
 
-[![Build Status](https://travis-ci.com/SunDi3yansyah/ip-lookup-rb.svg)](https://travis-ci.com/SunDi3yansyah/ip-lookup-rb)
+[![Build Status](https://travis-ci.org/SunDi3yansyah/ip-lookup-rb.svg)](https://travis-ci.org/SunDi3yansyah/ip-lookup-rb)
 [![License](https://img.shields.io/github/license/SunDi3yansyah/ip-lookup-rb.svg)](LICENSE)
 [![Gem Version](https://badge.fury.io/rb/ip-lookup.svg)](https://badge.fury.io/rb/ip-lookup)
 [![Download total](https://img.shields.io/gem/dt/ip-lookup.svg?style=flat)](https://badge.fury.io/rb/ip-lookup)
